@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel='stylesheet' type='text/css' media='screen' href='../FRONT/css/menu.css'>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Menu</a>
+        <nav>
+            <ul>
+                <li><a href="clientes.html">Clientes</a></li>
+                <li><a href="producto.html">Productos</a></li>
+                <li>
+                    <a href="vendedores.html">Vendedores</a>
+                </li>
+                <li><a href="factura.html">Factura</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <section class="zona1">
+
+    </section>
+
+
+
+    <script type="text/javascript">
+        window.addEventListener("scroll", function() {
+            var header = document.querySelector("header");
+            header.classList.toggle("abajo", window.scrollY > 0);
+        })
+    </script>
+</body>
+
+</html>
